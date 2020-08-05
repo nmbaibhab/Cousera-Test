@@ -20,15 +20,7 @@
     font-size: 30px;
     /* background-color: aqua; */
 }
-.row{
-    justify-content: center;
-}
-.contnt{
-    margin: 5px;
-}
-.contentx{
-    padding:5px;
-}
+
 .link :visited{
     color: yellow !important;
 }
