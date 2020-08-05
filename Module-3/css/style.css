@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.heading {
+    width: 30%;
+    padding: 10px;
+    margin: auto;
+    /* text-align: center; */
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(33, 69, 228);
+}
+.name{
+    margin-bottom: 10px;
+    font-size: 30px;
+    /* background-color: aqua; */
+}
+.row{
+    justify-content: center;
+}
+.content{
+    margin: 5px;
+}
+.contentx{
+    padding:5px;
+}
+.link :visited{
+    color: yellow !important;
+}
+.link{
+    color: yellow !important;
+}
