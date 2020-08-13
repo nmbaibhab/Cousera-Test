@@ -1,14 +1,17 @@
-let names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+(function () {
 
-for (index in names) {
+    var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
     
-       let temp_name=names[index].toLowerCase() ;
-       if(temp_name[0]=='j'){
-           console.log("Good Bye "+names[index]);
-        }
-        else{
-            console.log("Hello "+names[index]);
-
-       }
+    for (var i = 0; i <names.length; i ++) {
+      var firstLetter = names [i] .charAt (0) .toLowerCase ();
+    
+      if (firstLetter === 'j') {
+        byeSpeaker (names [i]);
+      }
+      else {
+        helloSpeaker (names [i]);
+      }
     }
+    
+    }) ();
 
